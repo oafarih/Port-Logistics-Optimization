@@ -1,0 +1,156 @@
+{
+  "solver": {
+    "status": 2,
+    "objective_value": 365070.0,
+    "mip_gap": 0.00634946722546361,
+    "runtime_seconds": 0.03,
+    "num_variables": 896,
+    "num_constraints": 1154
+  },
+  "summary": {
+    "num_ships": 13,
+    "total_demand": 368264,
+    "total_loaded": 366690.0,
+    "pct_demand_loaded": 99.6,
+    "total_movements": 22,
+    "total_stay_days": 14.0,
+    "avg_stay_days": 1.1
+  },
+  "weights": {
+    "w_load": 1.0,
+    "w_move": 10.0,
+    "w_stay": 100.0
+  },
+  "per_ship": {
+    "Ship_750": {
+      "demand": 60405,
+      "loaded": 60405.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 3,
+      "ets_day_idx": 4,
+      "stay_days": 1,
+      "berth": "Q1B",
+      "product": "Product_4"
+    },
+    "Ship_752": {
+      "demand": 16120,
+      "loaded": 16120.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 2,
+      "ets_day_idx": 4,
+      "stay_days": 2,
+      "berth": "Q1C",
+      "product": "Product_5"
+    },
+    "Ship_754": {
+      "demand": 8573,
+      "loaded": 6999.0,
+      "pct_loaded": 81.6,
+      "etb_day_idx": 1,
+      "ets_day_idx": 2,
+      "stay_days": 1,
+      "berth": "Q1C",
+      "product": "Product_6"
+    },
+    "Ship_757": {
+      "demand": 9921,
+      "loaded": 9921.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 4,
+      "ets_day_idx": 4,
+      "stay_days": 0,
+      "berth": "Q2B",
+      "product": "Product_9"
+    },
+    "Ship_746": {
+      "demand": 40129,
+      "loaded": 40129.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 3,
+      "ets_day_idx": 4,
+      "stay_days": 1,
+      "berth": "Q1A",
+      "product": "Product_1"
+    },
+    "Ship_748": {
+      "demand": 21433,
+      "loaded": 21433.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 2,
+      "ets_day_idx": 2,
+      "stay_days": 0,
+      "berth": "Q1A",
+      "product": "Product_2"
+    },
+    "Ship_749": {
+      "demand": 2302,
+      "loaded": 2302.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 5,
+      "ets_day_idx": 5,
+      "stay_days": 0,
+      "berth": "Q1B",
+      "product": "Product_3"
+    },
+    "Ship_753": {
+      "demand": 9905,
+      "loaded": 9905.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 1,
+      "ets_day_idx": 4,
+      "stay_days": 3,
+      "berth": "Q1C",
+      "product": "Product_6"
+    },
+    "Ship_755": {
+      "demand": 28762,
+      "loaded": 28762.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 3,
+      "ets_day_idx": 4,
+      "stay_days": 1,
+      "berth": "Q2A",
+      "product": "Product_7"
+    },
+    "Ship_747": {
+      "demand": 23475,
+      "loaded": 23475.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 5,
+      "ets_day_idx": 6,
+      "stay_days": 1,
+      "berth": "Q1A",
+      "product": "Product_2"
+    },
+    "Ship_751": {
+      "demand": 9560,
+      "loaded": 9560.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 4,
+      "ets_day_idx": 6,
+      "stay_days": 2,
+      "berth": "Q1C",
+      "product": "Product_5"
+    },
+    "Ship_756": {
+      "demand": 72123,
+      "loaded": 72123.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 5,
+      "ets_day_idx": 6,
+      "stay_days": 1,
+      "berth": "Q2A",
+      "product": "Product_8"
+    },
+    "Ship_758": {
+      "demand": 65556,
+      "loaded": 65556.0,
+      "pct_loaded": 100.0,
+      "etb_day_idx": 5,
+      "ets_day_idx": 6,
+      "stay_days": 1,
+      "berth": "Q2B",
+      "product": "Product_10"
+    }
+  }
+}

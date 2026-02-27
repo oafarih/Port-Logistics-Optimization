@@ -1,0 +1,13 @@
+ShipType,SubClass,LoadingRate,DeadWeight,Length,Draft
+Type_1,Type_1_small,11000,5000,90,5.0
+Type_1,Type_1_medium,11000,13000,105,6.0
+Type_1,Type_1_large,11000,21000,120,7.1
+Type_2,Type_2_small,23000,29000,136,8.1
+Type_2,Type_2_medium,23000,37000,151,9.2
+Type_2,Type_2_large,23000,45000,167,10.2
+Type_3,Type_3_small,35000,53000,182,11.3
+Type_3,Type_3_medium,35000,61000,198,12.3
+Type_3,Type_3_large,35000,69000,213,13.4
+Type_4,Type_4_small,47000,77000,229,14.4
+Type_4,Type_4_medium,47000,85000,244,15.5
+Type_4,Type_4_large,47000,93000,260,16.5

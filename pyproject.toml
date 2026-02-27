@@ -1,0 +1,11 @@
+[project]
+name = "port-logistics-optimization"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.1.4",
+    "numpy>=1.26.4",
+    "gurobipy>=11.0.3"
+]
