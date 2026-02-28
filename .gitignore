@@ -1,2 +1,4 @@
 __pycache__/
 .venv/
+src/data/results/week_*/
+*.ipynb
