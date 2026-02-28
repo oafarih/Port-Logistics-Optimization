@@ -326,6 +326,15 @@ A `yearly_summary.csv` at the top of the results directory aggregates all weeks:
 | `avg_stay` | Average ship stay duration (days) |
 | `status` | `optimal`, `feasible`, `skipped`, or `license_limit` |
 
+The yearly run in `run_model.py` also creates two consolidated detail tables in `src/data/results/`:
+
+| File | Content |
+|------|---------|
+| `ships_summary.csv` | One row per ship with ETB/ETS dates and per-ship outcome (`ship`, `etb`, `ets`, `berth`, `product`, `demand`, `loaded`, `pct_loaded`) |
+| `loading_summary.csv` | One row per ship-day at berth with daily and cumulative loading (`date`, `ship`, `load`, `berth`, `product`, `demand`, `cumulative_load`, `cumulative_load_pct`) |
+
+These are computed directly from weekly outputs (`at_berth.csv`, `etb.csv`, `ets.csv`, `load.csv`, `objective.json`) so no separate notebook step is required.
+
 ### Sample Performance
 
 With default settings across a full year:
